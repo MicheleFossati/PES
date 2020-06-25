@@ -1,12 +1,19 @@
-# Compiler
 CXX = g++
 
 # Update these paths to match your installation
 # You may also need to update the linker option rpath, which sets where to look for
 # the SDL2 libraries at runtime to match your install
-SDL_LIB = -L/usr/local/lib -lSDL2 -lSDL2_image -lSDL2_ttf \
+
+# Simo paths
+#SDL_LIB = -L/usr/local/lib -lSDL2 -lSDL2_image -lSDL2_ttf \
           -lSDL2_mixer  -Wl,-rpath=/usr/local/lib
-SDL_INCLUDE = -I/usr/include/SDL2
+#SDL_INCLUDE = -I/usr/include/SDL2
+
+# Edi paths
+SDL_LIB = -L/usr/local/Cellar/ -lsdl2 -lsdl2_image -lsdl2_ttf \
+          -lSDL2_mixer  -Wl,-rpath,/usr/local/Cellar
+SDL_INCLUDE = -I/usr/local/include/SDL2
+
  
 # You may need to change -std=c++11 to -std=c++0x if your compiler is a bit older
 CXXFLAGS =  -ggdb -c  -std=c++11 $(SDL_INCLUDE)
