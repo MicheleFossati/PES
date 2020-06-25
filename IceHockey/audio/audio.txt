@@ -1,0 +1,17 @@
+#backgound music
+audio/sober_to_death.mp3
+
+#goal sound
+audio/bloop_x.wav
+
+#wall collision sound
+audio/electro_tom.wav
+
+#disk collision
+audio/blip.wav
+
+#player collision
+audio/blip.wav
+
+#bumper collision
+audio/door_creak.wav

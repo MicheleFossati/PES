@@ -1,0 +1,9 @@
+#this file constains the DISKS of the match
+#check /images/images.txt to know which image are you loadind with the "image_name" member
+
+#use the following structure:
+#posx   posy   velx  vely  charge  magdipole  goal_score  image_name(int)  radius  mass
+
+ 1.6     3.2    0    0      -0.6        0         10            0           0.1     0.8
+ 3.2     3.2    0    0      -1          0         20            0           0.2     3.2
+

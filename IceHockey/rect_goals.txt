@@ -1,0 +1,5 @@
+
+
+#posx   posy   player  score    width   height   respawnx   respawny    image_name
+  2.4     6.4      0       1     1.8       0.15       1.8         4.4         0
+  2.4      0       1       1     1.8       0.15       3           2           1

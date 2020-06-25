@@ -1,0 +1,9 @@
+#this file constains the SOLENOIDS of the match
+#check /images/images.txt to know which image are you loading with the "image_name" member
+#use the following structure:
+
+
+#posx   posy   n_coils   current    radius   image_name(int) 
+
+2.4     3.2       5         0.6        0.5         0
+#3.2    2.4        1          1          1          0

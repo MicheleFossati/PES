@@ -1,0 +1,8 @@
+#this file constains the WIRES of the match
+#check /images/images.txt to know which image are you loading with the "image_name" member
+#use the following structure:
+
+#posx   posy   linear_charge   image_name(int) 
+
+#3      4           4                0
+#2       2           -1.5             0

@@ -1,0 +1,6 @@
+#file for loading the match
+
+#use the combination:
+#width  height     title       mouse_sens   FPS   dump   max_time   winning score
+480      640      Pinball        0.04       60     0.3     120000      300
+

@@ -1,0 +1,44 @@
+#background image
+images/field.png
+
+
+#overground image
+images/alpha0_1px.png
+
+
+#obj image
+
+DISK
+images/dot_white_big.png
+images/disk_black.png
+images/dot_purple.png
+images/player_t.png
+
+POINT_CHARGE
+images/point_blue.png
+images/point_yellow.png
+images/point_l_blue.png
+images/point_l_yellow.png
+
+SOLENOID
+images/bumper_green.png
+
+COIL
+images/dot_green.png
+
+WIRE
+images/dot_green.png
+
+PLAYER_TYPE
+images/player_green.png
+images/player_red.png
+
+RECT_GOAL
+images/rect_goal_red.png
+images/rect_goal_green.png
+
+BUMPER
+images/bumper_green.png
+images/bumper_red.png
+
+

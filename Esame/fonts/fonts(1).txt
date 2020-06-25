@@ -1,0 +1,13 @@
+# contain infos for the fonts used in the match
+# use the formula: 
+#   path                size   r    g    b    a
+
+#time font
+fonts/VT323-Regular.ttf  30   200  200  200  150
+
+#player score font
+fonts/VT323-Regular.ttf  20   255 255  255  255
+
+#title font
+fonts/VT323-Regular.ttf  50   255 255  255  255
+

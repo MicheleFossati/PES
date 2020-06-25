@@ -1,0 +1,10 @@
+#this file constains the COILS of the match
+#check /images/images.txt to know which image are you loadind with the "image_name" member
+
+#use the following structure:
+
+#posx   posy   mag_dipole   image_name(int)
+
+#4.4    2.3         1             0
+#3.3    3.3         1             0
+#2       4          1             0
