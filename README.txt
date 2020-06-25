@@ -58,5 +58,24 @@ We provide two game launchers:
 Just launch wichever mode you wish to play with and enjoy. Other mode combination can be
 compiled.
 
+SOURCE FILES (omitted prefix PES_ and suffix .cpp and/or .h)
+
+main chain:
+singleplayer and twoplayer
+  match
+    arena
+      field_obj
+        EM_structs
+      player
+      goal
+    event_handler
+      sound
+    game_engine
+     
+low level and other files:
+types  
+  data_templates
+global
+SDL_FontCache
 
 
