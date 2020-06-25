@@ -9,7 +9,6 @@ GENERAL OVERVIEW:
 Create and play your level with... PES! Man's best friend.
 
 
-
 HOW TO USE:
  - install the graphic library SDL2
  - modify the paths in the `Makefile` to match your installation
