@@ -1,4 +1,5 @@
 CXX = g++
+CC = gcc #compiler for C files
 
 # Update these paths to match your installation
 # You may also need to update the linker option rpath, which sets where to look for
@@ -17,6 +18,7 @@ SDL_INCLUDE = -I/usr/local/include/SDL2
  
 # You may need to change -std=c++11 to -std=c++0x if your compiler is a bit older
 CXXFLAGS =  -ggdb -c  -std=c++11 $(SDL_INCLUDE)
+CFLAGS = -ggdb -c -std=c11 $(SDL_INCLUDE)      # C flags
 LDFLAGS = $(SDL_LIB)
 
 
@@ -57,10 +59,7 @@ PES_singleplayer :  $(objects) PES_singleplayer.o
 PES_twoplayers :  $(objects) PES_twoplayers.o
 	$(CXX) PES_twoplayers.o $(objects) $(LDFLAGS) -o $(@F)
 
-
 $(objects) : $(headers)
-
-
 
 PES_singleplayer.o : PES_singleplayer.cpp $(headers)
 	$(CXX) $(CXXFLAGS) PES_singleplayer.cpp -o PES_singleplayer.o
@@ -68,9 +67,9 @@ PES_singleplayer.o : PES_singleplayer.cpp $(headers)
 PES_twoplayers.o : PES_twoplayers.cpp $(headers)
 	$(CXX) $(CXXFLAGS) PES_twoplayers.cpp -o PES_twoplayers.o
 
-
+# Compile SDL_FontCache.c using gcc instead of g++
 SDL_FontCache.o : SDL_FontCache.c $(headers)
-	$(CXX) $(CXXFLAGS) SDL_FontCache.c -o SDL_FontCache.o
+	$(CC) $(CFLAGS) SDL_FontCache.c -o SDL_FontCache.o
 
 clean:
 	rm -f $(objects) PES_singleplayer.o PES_twoplayers.o
