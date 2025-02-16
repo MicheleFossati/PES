@@ -11,7 +11,7 @@ Create and play your level with... PES! Man's best friend.
 
 HOW TO USE:
  - install the graphic library SDL2
- - modify the paths in the `Makefile` to match your installation
+ - modify the paths in the `Makefile` to match your installation. Then compile with make
  - run the file PES_singleplayer or PES_twoplayers 
 
 HOW TO CREATE A GAME:
